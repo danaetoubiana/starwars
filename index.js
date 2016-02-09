@@ -4,16 +4,16 @@ var quotes = [{
   'author': '- Yoda',
   'quote': 'When 900 years old, you reach… Look as good, you will not.'
 }, {
-  'author': '- Senator palpatine',
+  'author': '- Senator Palpatine',
   'quote': 'The Dark Side of the Force is the pathway to many abilities some consider to be.. Unnatural.'
 }, {
   'author': '- Count Dooku',
   'quote': 'I sense great fear in you, Skywalker. You have hate… you have anger… but you don’t use them.'
 }, {
-  'author': '- Darth vader',
+  'author': '- Darth Vader',
   'quote': 'Luke, you can destroy the Emperor. He has foreseen this. It is your destiny. Join me, and together we can rule the galaxy as father and son.'
 }, {
-  'author': '- Princess leila',
+  'author': '- Princess Leila',
   'quote': 'Aren\'t you a little short for a storm trooper?'
 }, {
   'author': '- Yoda',
@@ -37,10 +37,10 @@ var quotes = [{
 
 var quote = quotes[Math.floor(Math.random()*quotes.length)];
 ReactDOM.render(
-React.createElement('h2', null, quote.quote),
+React.createElement('h3', null, quote.quote),
 document.getElementById("quote")
 );
 ReactDOM.render(
-React.createElement('h3', null, quote.author),
+React.createElement('h4', null, quote.author),
 document.getElementById("author")
 );
